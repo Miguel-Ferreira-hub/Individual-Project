@@ -26,7 +26,7 @@ $$
 # DRT and Proposed ECM
 
 <p align="center">
-  <img src="Images/ECM.png" alt="Logo" width="900">
+  <img src="Images/ECM.png" alt="Logo" width="500">
 </p>
 
 <p align="center">
@@ -34,3 +34,9 @@ $$
 </p>
 
 # Diffusion Process
+The diffusion here is quantified by:
+
+1. Diffusion peak magnitude $$\gamma(\tau)$$
+2. Diffusion time constant $$\tau$$
+
+# ECM Fit
