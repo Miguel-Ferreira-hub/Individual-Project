@@ -26,9 +26,11 @@ $$
 # DRT and Proposed ECM
 
 <p align="center">
-  <img src="Images/DRT.png" alt="Logo" width="900">
+  <img src="Images/ECM.png" alt="Logo" width="900">
 </p>
 
 <p align="center">
-  <img src="Images/ECM.png" alt="Logo" width="900">
+  <img src="Images/DRT.png" alt="Logo" width="500">
 </p>
+
+# Diffusion Process
