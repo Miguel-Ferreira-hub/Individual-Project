@@ -12,7 +12,7 @@ To calculate the DRT, impedance data $$Z(\omega)$$, is collected from a battery 
 $$
 Z(\omega)=R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
 \int_{0}^{\infty}
-\frac{\gamma(\tau)}{1+j\omega\tau}d\tau /to R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
+\frac{\gamma(\tau)}{1+j\omega\tau}d\tau \to R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
 \sum_{k=1}^{n}
 \frac{\gamma(\tau_k)}{1+j\omega\tau_k}
 $$
