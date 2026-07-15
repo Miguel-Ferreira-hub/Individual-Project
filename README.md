@@ -23,5 +23,12 @@ $$
 Z(\omega)=Z'(\omega)+jZ''(\omega)
 $$
 
-# DRT
+# DRT and Proposed ECM
 
+<p align="center">
+  <img src="Images/DRT.png" alt="Logo" width="900">
+</p>
+
+<p align="center">
+  <img src="Images/ECM.png" alt="Logo" width="900">
+</p>
