@@ -7,7 +7,7 @@ The project is split into two parts:
 2. Proposition of equivalent circuit model (ECM) to work back to SoC, this is informed by the results of the DRT.
 
 # Inverse Problem
-To calculate the DRT, impedance data is collected from a battery via low amplitude (0.1C) AC signal through EIS (0.01-10,000Hz). The DRT is found by solving the following inverse problem with the aim of establishing the distribution function ($\gamma(\tau)$):
+To calculate the DRT, impedance data is collected from a battery via low amplitude (0.1C) AC signal through EIS (0.01-10,000Hz). The DRT is found by solving the following inverse problem with the aim of establishing the distribution function ($$\gamma(\tau)$$):
 
 $$
 Z(\omega)=R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
