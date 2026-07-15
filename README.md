@@ -45,6 +45,7 @@ The diffusion here is quantified by:
 
 
 # ECM Fit
+The ECM fit is performed by minimising the least squares error between the model impedance $$Z_{\mathrm{ECM}}$$ and collected impedance data $$Z_{\mathrm{EIS}}$$. This done through MATLAB's non-linear solver "lsqnonlin".
 
 $$
 \min_{x}
@@ -57,8 +58,7 @@ $$
 Where $$Z_{\mathrm{ECM}}$$:
 
 $$
-Z_{\mathrm{ECM}}
-=
+Z_{\mathrm{ECM}} =
 R_{\infty}
 +
 \sum_{i=1}^{4}
@@ -69,6 +69,8 @@ R_{\infty}
 \displaystyle \left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)-\frac{j}{\omega C_5}
 }
 $$
+
+And $$x$$:
 
 $$
 x=
