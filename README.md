@@ -54,7 +54,7 @@ Z_{\mathrm{ECM}}(x)-Z_{\mathrm{EIS}}
 \right)
 $$
 
-Where $$Z_ecm$$:
+Where $$Z_{\mathrm{ECM}}$$:
 
 $$
 Z_{\mathrm{ECM}}
@@ -62,8 +62,7 @@ Z_{\mathrm{ECM}}
 R_{\infty}
 +
 \sum_{i=1}^{4}
-\frac{R_i}{1-j\omega R_i C_i}
--
+\frac{R_i}{1-j\omega R_i C_i} - 
 \frac{
 \displaystyle \frac{j}{\omega C_5}\left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)
 }{
