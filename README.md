@@ -39,4 +39,9 @@ The diffusion here is quantified by:
 1. Diffusion peak magnitude $$\gamma(\tau)$$
 2. Diffusion time constant $$\tau$$
 
+<p align="center">
+  <img src="Images/Relations.png" alt="Logo" width="500">
+</p>
+
+
 # ECM Fit
