@@ -55,22 +55,7 @@ Z_{\mathrm{ECM}}(x)-Z_{\mathrm{EIS}}
 \right)
 $$
 
-Where $$Z_{\mathrm{ECM}}$$:
-
-$$
-Z_{\mathrm{ECM}} =
-R_{\infty}
-+
-\sum_{i=1}^{4}
-\frac{R_i}{1-j\omega R_i C_i} - 
-\frac{
-\displaystyle \frac{j}{\omega C_5}\left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)
-}{
-\displaystyle \left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)-\frac{j}{\omega C_5}
-}
-$$
-
-And $$x$$:
+Where $$x$$ is a vector containing the parameters of the ECM within $$Z_{\mathrm{ECM}}$$, given as:
 
 $$
 x=
@@ -89,3 +74,26 @@ C_{5},
 \sigma
 \right]
 $$
+
+And $$Z_{\mathrm{ECM}}$$:
+
+$$
+Z_{\mathrm{ECM}} =
+R_{\infty}
++
+\sum_{i=1}^{4}
+\frac{R_i}{1-j\omega R_i C_i} - 
+\frac{
+\displaystyle \frac{j}{\omega C_5}\left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)
+}{
+\displaystyle \left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)-\frac{j}{\omega C_5}
+}
+$$
+
+<p align="center">
+  <img src="Images/ECM_Fit.png" alt="Logo" width="500">
+</p>
+
+<p align="center">
+  <img src="Images/Nyquist.png" alt="Logo" width="500">
+</p>
