@@ -45,3 +45,46 @@ The diffusion here is quantified by:
 
 
 # ECM Fit
+
+$$
+\min_{x}
+\sum_{f=f_{\mathrm{start}}}^{f_{\mathrm{end}}}
+\left(
+Z_{\mathrm{ECM}}(x)-Z_{\mathrm{EIS}}
+\right)
+$$
+
+Where $$Z_ecm$$:
+
+$$
+Z_{\mathrm{ECM}}
+=
+R_{\infty}
++
+\sum_{i=1}^{4}
+\frac{R_i}{1-j\omega R_i C_i}
+-
+\frac{
+\displaystyle \frac{j}{\omega C_5}\left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)
+}{
+\displaystyle \left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)-\frac{j}{\omega C_5}
+}
+$$
+
+$$
+x=
+\left[
+R_{\infty},
+R_{1},
+R_{2},
+R_{3},
+R_{4},
+R_{5},
+C_{1},
+C_{2},
+C_{3},
+C_{4},
+C_{5},
+\sigma
+\right]
+$$
