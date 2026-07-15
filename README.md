@@ -17,7 +17,7 @@ Z(\omega)=R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
 \frac{\gamma(\tau_k)}{1+j\omega\tau_k}
 $$
 
-Where $$Z(\omega)$$ consists of a real ($$ZI$$) and imaginary ($$ZII$$) part:
+Where $$Z(\omega)$$ consists of a real (Z'(\omega)) and imaginary (Z''(\omega)) part:
 
 $$
 Z(\omega)=Z'(\omega)+jZ''(\omega)
