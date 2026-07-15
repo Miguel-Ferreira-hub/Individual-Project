@@ -22,3 +22,6 @@ Where $$Z(\omega)$$ consists of a real $$Z'(\omega)$$, and imaginary $$Z''(\omeg
 $$
 Z(\omega)=Z'(\omega)+jZ''(\omega)
 $$
+
+# DRT
+
